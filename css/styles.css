@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #4D5AE5;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+.logo-dark {
+  color: #2E2F42;
+}
+.logo-light {
+  color: #F4F4FD;
+}
+.menu-studio:hover {
+  color: #404bbf;
+}
+
+.menu-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.menu:hover {
+  color: #404bbf;
+}
+.menu:active {
+  color: #404bbf;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.hero{
+  background-color: #2e2f42;
+}
+.hero h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #404bbf;
+}
