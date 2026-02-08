@@ -4,17 +4,18 @@ body {
 }
 a {
   text-decoration: none;
+  color: currentColor
 }
 ul {
-  list-style: none;
+  list-style-type: none;
 }
+
 .logo {
   color: #4D5AE5;
   font-family: Raleway;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 .logo-dark {
@@ -23,10 +24,10 @@ ul {
 .logo-light {
   color: #F4F4FD;
 }
+
 .menu-studio:hover {
   color: #404bbf;
 }
-
 .menu-studio:active {
   color: #404bbf;
   text-decoration: underline;
@@ -37,6 +38,9 @@ ul {
 .menu:active {
   color: #404bbf;
 }
+.contacts{
+  color: #434455;
+}
 .contacts:hover {
   color: #404bbf;
 }
@@ -45,7 +49,6 @@ ul {
 }
 .hero h1 {
   color: #ffffff;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -61,3 +64,39 @@ button {
 button:hover {
   background-color: #404bbf;
 }
+/*region team*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  
+  text-align: center;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-name {
+  
+  text-align: center;
+}
+.team-position {
+  
+  text-align: center;
+}
+/*endregion team*/
+
+/*region portfolio*/
+.portfolio-title {
+  text-align: center;
+}
+/*endregion portfolio*/
+
+/*region footer*/
+footer {
+  background-color: #2E2F42;
+}
+footer p {
+  color: #e7e9fc;
+}
+/*endregion footer*/
