@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -24,64 +25,99 @@ ul {
 .logo-light {
   color: #F4F4FD;
 }
-
-.menu-studio:hover {
-  color: #404bbf;
+/*region header*/
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.menu-studio:active {
-  color: #404bbf;
-  text-decoration: underline;
-}
-.menu:hover {
+.menu:hover,
+.menu:focus {
   color: #404bbf;
 }
 .menu:active {
   color: #404bbf;
 }
+
 .contacts{
   color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 2%;
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
+/*endregion header*/
 .hero{
   background-color: #2e2f42;
 }
-.hero h1 {
+.hero-title {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 2%;
 }
-button {
+.hero-button {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 4%;
 }
-button:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
+.hero-button:focus{
+  background-color: #404bbf;
+}
+
+/*region features*/
+
+.features-caption {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2E2F42;
+}
+.features-description {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+/*endregion features*/
 /*region team*/
 .team {
   background-color: #f4f4fd;
 }
 
 .team-title {
-  
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  color: #2E2F42;
   text-align: center;
 }
 .team-item {
   background-color: #ffffff;
 }
 .team-name {
-  
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2E2F42;
   text-align: center;
 }
 .team-position {
-  
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
   text-align: center;
 }
 /*endregion team*/
@@ -97,6 +133,6 @@ footer {
   background-color: #2E2F42;
 }
 footer p {
-  color: #e7e9fc;
+  color: #f4f4fd;
 }
 /*endregion footer*/
